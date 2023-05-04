@@ -1,6 +1,8 @@
 # Introduction
 
-This repo contains all the resources that are used during the Always Azure broadcasts.
+This repo contains all the resources that are used during the Fellowmind Always Azure broadcasts.
+
+You can sign up for the upcoing broadcast sessions [here](https://www.fellowmindcompany.com/da-dk/nyheder-og-events/always-azure/)
 
 ## Coming up
 
