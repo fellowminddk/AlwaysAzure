@@ -1,4 +1,5 @@
 <base target="_blank">
+
 # Introduction
 
 This repo contains all the resources that are used during the Fellowmind Always Azure broadcasts.
