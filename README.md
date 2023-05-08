@@ -6,7 +6,7 @@ You can sign up for the upcoming broadcast sessions [here](https://www.fellowmin
 
 ## Coming up
 
-- [#3 - Infrastructure as Code](./%232%20-%20Azure%20Governance/Links.md)
+- [#3 - Infrastructure as Code](./%233%20-%20Infrastructure%20as%20Code/Links.md)
 
 ## Previous broadcasts
 
