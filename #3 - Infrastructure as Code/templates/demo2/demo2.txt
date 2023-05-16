@@ -1,0 +1,5 @@
+Demo 2
+1 - using modules 
+2 - Create Container registry
+
+ .\deploy.ps1 -TemplateFileName "./templates/demo2/main.bicep" 

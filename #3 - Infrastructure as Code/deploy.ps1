@@ -3,7 +3,7 @@
 param (
     # Azure Template file to use for deployment
     # Must be in the same folder as this script
-    [Parameter()][string]$TemplateFileName = "./templates/Container/main.bicep",
+    [Parameter()][string]$TemplateFileName = "./templates/demo2/main.bicep",
 
     # Azure Template Parameter to use for deployment
     # Must be in the same folder as this script
@@ -37,8 +37,13 @@ Write-Information ($splat | Out-String)
 
 $deployment = New-AzDeployment @splat -ErrorAction "stop"
 
-# publishes the bicep module to container Registry
-$crUri = $deployment.Outputs.crUri.Value
-$target = "br:$crUri/bicep/modules/containerregistry:v2"
+$deployment.Outputs.crUri.Value
+
+
+# # publishes the bicep module to container Registry
+
+
+$uri = $deployment.Outputs.crUri.Value
+$target = "br:$uri/bicep/modules/functionapp:v1"
 write-host $target
 Publish-AzBicepModule -FilePath "$PSScriptRoot/$TemplateFileName" -Target $target

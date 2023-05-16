@@ -1,8 +1,7 @@
 targetScope = 'subscription'
 param location string = 'westeurope'
 param environment string = 'prod'
-param crName string = 'crsharedmodules${environment}' 
-param stName string = 'stsharedmodules${environment}' 
+param crName string = 'crdemo2${environment}we' 
 @allowed([
   'Basic'
   'Standard'
@@ -13,13 +12,13 @@ param crAnonymousPullEnabled bool = false
 
 
 resource resourceGroup 'Microsoft.Resources/resourceGroups@2021-04-01' = {
-  name: 'rg-sharedmodule-we'
+  name: 'rg-demo2-we'
   location: location
 }
 
 module cr 'modules/containerReg.bicep' = {
   scope: resourceGroup
-  name: 'Deploy-cr'
+  name: 'crDeploy'
   params:{
     name: crName
     location: location
@@ -29,14 +28,5 @@ module cr 'modules/containerReg.bicep' = {
 
 
 }   
-
-// module storage 'modules/storage.bicep' = {
-//   scope: resourceGroup
-//   name: 'Deploy-storage'
-//   params: {
-//     location: location
-//     name: stName
-//   }
-// }
 
 output crUri string = cr.outputs.crUri

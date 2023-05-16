@@ -1,0 +1,7 @@
+Demo 1
+1 - Bicep file structure
+2 - GUI in vscode for using bicep and deployment
+3 - Parameter files
+4 - Create a storage account in intellisense
+
+ .\deploy.ps1 -TemplateFileName "./templates/demo1/main.bicep" 

@@ -1,7 +1,7 @@
 param location string 
 param name string
 
-resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
+resource st 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   name: name
   location: location
   kind: 'StorageV2'
@@ -9,3 +9,5 @@ resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
     name: 'Standard_LRS'
   }
 }
+
+output stName string = st.name

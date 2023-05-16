@@ -1,0 +1,8 @@
+Demo 3
+1 - Create Function App
+2 - Publish to Container registry
+3 - Consume the new Function App
+
+ .\deploy.ps1 -TemplateFileName "./templates/demo3/main.bicep" 
+
+ br:crsharedmodulesprod.azurecr.io/bicep/modules/containerregistry:v2
