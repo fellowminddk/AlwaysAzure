@@ -35,15 +35,4 @@ $splat = @{
 Write-Information "Parsing the following object to New-AzDeployment:"
 Write-Information ($splat | Out-String)
 
-$deployment = New-AzDeployment @splat -ErrorAction "stop"
-
-$deployment.Outputs.crUri.Value
-
-
-# # publishes the bicep module to container Registry
-
-
-$uri = $deployment.Outputs.crUri.Value
-$target = "br:$uri/bicep/modules/functionapp:v1"
-write-host $target
-Publish-AzBicepModule -FilePath "$PSScriptRoot/$TemplateFileName" -Target $target
+New-AzDeployment @splat -ErrorAction "stop"
