@@ -6,9 +6,10 @@ You can sign up for the upcoming broadcast sessions [here](https://www.fellowmin
 
 ## Coming up
 
-- [#3 - Infrastructure as Code](./%233%20-%20Infrastructure%20as%20Code/Links.md)
+- [#4 - Cost Management](./%234%20-%20Cost%20Management/Links.md)
 
 ## Previous broadcasts
 
+- [#3 - Infrastructure as Code](./%233%20-%20Infrastructure%20as%20Code/Links.md)
 - [#2 - Azure Governance](./%232%20-%20Azure%20Governance/Links.md)
 - [#1 - Azure Networking](./%231%20-%20Azure%20Networking/Links.md)
