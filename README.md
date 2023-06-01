@@ -6,7 +6,7 @@ You can sign up for the upcoming broadcast sessions [here](https://www.fellowmin
 
 ## Coming up
 
-- [#4 - Cost Management](./%234%20-%20Cost%20Management/Links.md)
+- [#4 - Azure Platform](./%234%20-%20Azure%20Platform/Links.md)
 
 ## Previous broadcasts
 
