@@ -2,7 +2,7 @@
 
 ## Broadcast
 
-[Always Azure #5 - YouTube](https://www.youtube.com/watch?v=ON6Lw6gwQzI)
+[![Always Azure #5](https://img.youtube.com/vi/ON6Lw6gwQzI/maxresdefault.jpg)](https://www.youtube.com/watch?v=ON6Lw6gwQzI)
 
 ## Github links
 

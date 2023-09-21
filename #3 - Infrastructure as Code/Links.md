@@ -1,7 +1,7 @@
 # Links we talked about on the broadcast (May 17th 2023)
 
 ## Broadcast
-
+[![Always Azure #3](https://img.youtube.com/vi/4ogMzNGbfDM/maxresdefault.jpg)](https://www.youtube.com/live/4ogMzNGbfDM?si=eRsDswAwAO6B1FRf)
 ## Github links
 
 - [Module Index | Bicep Registry (azure.github.io)](https://azure.github.io/bicep-registry-modules/)

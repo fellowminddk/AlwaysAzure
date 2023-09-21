@@ -2,7 +2,7 @@
 
 ## Broadcast
 
-[Always Azure #6 - YouTube](https://www.youtube.com/watch?v=sZasy-vHf_0&ab_channel=FellowmindDenmark)
+[![Always Azure #6](https://img.youtube.com/vi/sZasy-vHf_0/maxresdefault.jpg)](https://www.youtube.com/watch?v=sZasy-vHf_0&list=PLVg850d_cRyWQQMN1MAUcMPWXQm38Xp2G&index=2&ab_channel=FellowmindDenmark)
 
 ## Github links
 
