@@ -4,7 +4,7 @@
 
 ## Github links
 
- - [Module Index | Bicep Registry (azure.github.io)](https://azure.github.io/bicep-registry-modules/)
+- [Module Index | Bicep Registry (azure.github.io)](https://azure.github.io/bicep-registry-modules/)
 
 ## Learning and documentation from Microsoft
 
